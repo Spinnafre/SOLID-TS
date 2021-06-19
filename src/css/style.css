@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d6e6d;
+    position: relative;
+}
+em{
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+}
+main{
+    background-color: #ffff;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 10px;
+}
+button{
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 1em;
+    transition: filter 0.4s ease;
+    -webkit-transition: filter 0.4s ease;
+    -moz-transition: filter 0.4s ease;
+    -ms-transition: filter 0.4s ease;
+    -o-transition: filter 0.4s ease;
+}
+button:hover{
+    filter:opacity(70%);
+    -webkit-filter:opacity(70%);
+}
+button:active{
+    outline: #3c413c solid 3px;
+}
+.btn-facebook{
+    background-color: #4267B2;
+    color: #FFFF;
+    border: solid 2px rgb(15, 84, 129);
+}
+.btn-print{
+    background-color: #f0f0f0;
+    color: rgb(68, 67, 67);
+    border: solid 2px rgb(67, 68, 68);
+}
